@@ -1,0 +1,57 @@
+body{
+  max-width: 100%;
+  background: gray;
+  margin:0 auto;
+  text-align: center;
+}
+h1{
+  margin:0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+.header{
+  height: 130px;
+  background: black;
+  color: white;
+  }
+
+.header input{
+  width: 75%;
+  }
+button{ 
+  cursor: pointer;
+}
+
+.header input,button{
+  border:none;
+}
+
+button:hover{
+  background: white;
+  color:red;
+}
+
+.list{
+  width:75%;
+  margin: 0 auto;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li{
+  font-size: 20px;
+  text-align: left;
+}
+
+ul input{
+  float: left;
+  cursor: pointer;
+}
+
+ul li:nth-child(odd) {
+  background:#0c0c0c6e;
+}
